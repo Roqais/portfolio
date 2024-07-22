@@ -24,7 +24,7 @@ const Home = () => {
                             1000,
                         ]}
                         speed={50}
-                        className='md:text-2xl text-2xl font-medium md:font-normal'
+                        className='md:text-2xl text-2xl font-medium md:font-normal text-red-900'
                         repeat={Infinity}
                     />
                     <p className=' md:my-0 my-10  md:py-14 px-6 md:px-12 text-xl tracking-wide text-left'>

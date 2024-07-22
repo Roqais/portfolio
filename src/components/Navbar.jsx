@@ -9,8 +9,8 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-white font-poppins text-red-800 dark:bg-gray-900 w-full z-20 fixed top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <nav className="bg-white font-poppins text-red-800 dark:bg-gray-900 w-full z-20 fixed top-0 start-0 ">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 border-b border-gray-200 dark:border-gray-600">
                 <h1 className='uppercase text-xl font-semibold tracking-wide'>Hannah.V</h1>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <button type="button" className="text-white hidden md:block bg-red-800 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">Contact ME</button>
