@@ -1,6 +1,8 @@
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Skill from "./components/Skill"
+import SkillDetail from "./components/Tools"
 
 const App = () => {
   return (
@@ -8,11 +10,13 @@ const App = () => {
       <BrowserRouter>
 
         <Navbar />
-        <div className="pt-16"> {/* Adjust the padding to match the height of your fixed navbar */}
+        <div className="font-poppins pt-16"> 
 
           <Routes>
 
             <Route path="/" element={<Home />} />
+            <Route path="/skill" element={<Skill />} />
+            <Route path="/Tools" element={<SkillDetail />} />
 
           </Routes>
         </div>
