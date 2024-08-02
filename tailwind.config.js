@@ -12,6 +12,11 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      borderRadius: {
+
+        'full': '9999px',
+        'half': '50px',
+      }
     },
   },
   plugins: [],

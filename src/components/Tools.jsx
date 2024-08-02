@@ -29,11 +29,11 @@ function Tools() {
 
 
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         initialSlide: 0,
         nextArrow: <Arrow />,
         prevArrow: <Arrow />,
@@ -68,6 +68,8 @@ function Tools() {
                 <h1 className="font-medium text-black text-3xl">Tools I used</h1>
             </div>
             <div className="slider-container md:px-20 md:min-h-content  md:py-11 md:mt-2 bg-gray-800">
+
+                <p className="md:hidden text-center font-semibold text-gray-500 pt-4">Scroll horizontally to view additional slides.</p>
                 <Slider {...settings}>
 
 
@@ -79,7 +81,8 @@ function Tools() {
                         />
                         <div className="flex flex-col text-white items-center text-center my-6">
                             <h1 className=" text-4xl text-orange-500 font-semibold">Acunetix</h1>
-                            <p className="mt-7 md:text-base text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloribus consequuntur pariatur eveniet ex sint nemo voluptate tempora esse nisi?</p>
+                            <p className="mt-7 md:text-base text-xl">Acunetix is a powerful web vulnerability scanner used to detect security issues in
+                                web applications, including SQL injection and cross-site scripting.</p>
 
                         </div>
                     </div>
@@ -92,7 +95,8 @@ function Tools() {
                         />
                         <div className="flex flex-col text-white items-center text-center my-6">
                             <h1 className=" text-4xl text-orange-500 font-semibold">Burp Suite</h1>
-                            <p className="mt-7 md:text-base text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloribus consequuntur pariatur eveniet ex sint nemo voluptate tempora esse nisi?</p>
+                            <p className="mt-7 md:text-base text-xl">Burp Suite is a comprehensive toolset for web application security testing,
+                                providing functionality for scanning, crawling, and exploiting vulnerabilities.</p>
 
                         </div>
                     </div>
@@ -104,7 +108,8 @@ function Tools() {
                         />
                         <div className="flex flex-col text-white items-center text-center my-6">
                             <h1 className=" text-4xl text-orange-500 font-semibold">Dirsearch</h1>
-                            <p className="mt-7 md:text-base text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloribus consequuntur pariatur eveniet ex sint nemo voluptate tempora esse nisi?</p>
+                            <p className="mt-7 md:text-base text-xl">
+                                Dirsearch is a command-line tool used for brute-forcing directories and files on web servers, significantly aiding in the discovery of hidden resources.</p>
 
                         </div>
                     </div>
@@ -116,7 +121,7 @@ function Tools() {
                         />
                         <div className="flex flex-col text-white items-center text-center my-6">
                             <h1 className=" text-4xl text-orange-500 font-semibold">Metasploit</h1>
-                            <p className="mt-7 md:text-base text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloribus consequuntur pariatur eveniet ex sint nemo voluptate tempora esse nisi?</p>
+                            <p className="mt-7 md:text-base text-xl">Metasploit is a versatile framework for penetration testing that allows security professionals to identify, exploit, and efficiently validate vulnerabilities.</p>
 
                         </div>
                     </div>
@@ -128,7 +133,9 @@ function Tools() {
                         />
                         <div className="flex flex-col text-white items-center text-center my-6">
                             <h1 className=" text-4xl text-orange-500 font-semibold">Nmap</h1>
-                            <p className="mt-7 md:text-base text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloribus consequuntur pariatur eveniet ex sint nemo voluptate tempora esse nisi?</p>
+                            <p className="mt-7 md:text-base text-xl">Nmap is a network scanning tool used to discover hosts and services on a
+                                network, providing information about open ports, running services, and potential
+                                vulnerabilities.</p>
 
                         </div>
                     </div>
@@ -140,7 +147,8 @@ function Tools() {
                         />
                         <div className="flex flex-col text-white items-center text-center my-6">
                             <h1 className=" text-4xl text-orange-500 font-semibold">Nuclei</h1>
-                            <p className="mt-7 md:text-base text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloribus consequuntur pariatur eveniet ex sint nemo voluptate tempora esse nisi?</p>
+                            <p className="mt-7 md:text-base text-xl">Nuclei is a fast and customizable vulnerability scanner focused on automation,
+                                enabling the detection of various security issues across large environments.</p>
 
                         </div>
                     </div>
