@@ -1,14 +1,14 @@
-import React, { Suspense, lazy } from 'react';
+import React from 'react';
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// Lazy load components
-const Home = lazy(() => import("./components/Home"));
-const Skill = lazy(() => import("./components/Skill"));
-const SkillDetail = lazy(() => import("./components/Tools"));
-const Certificates = lazy(() => import("./components/Certificates"));
-const Experience = lazy(() => import("./components/Experience"));
-const ContactMe = lazy(() => import("./components/ContactMe"));
+// Directly import components
+import Home from "./components/Home";
+import Skill from "./components/Skill";
+import SkillDetail from "./components/Tools";
+import Certificates from "./components/Certificates";
+import Experience from "./components/Experience";
+import ContactMe from "./components/ContactMe";
 
 const App = () => {
   return (
@@ -16,16 +16,14 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <div className="font-poppins pt-16">
-          <Suspense fallback={<div>Loading...</div>}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/skill" element={<Skill />} />
-              <Route path="/Tools" element={<SkillDetail />} />
-              <Route path="/Certificates" element={<Certificates />} />
-              <Route path="/Experience" element={<Experience />} />
-              <Route path="/ContactME" element={<ContactMe />} />
-            </Routes>
-          </Suspense>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/skill" element={<Skill />} />
+            <Route path="/Tools" element={<SkillDetail />} />
+            <Route path="/Certificates" element={<Certificates />} />
+            <Route path="/Experience" element={<Experience />} />
+            <Route path="/ContactME" element={<ContactMe />} />
+          </Routes>
         </div>
       </BrowserRouter>
     </>
