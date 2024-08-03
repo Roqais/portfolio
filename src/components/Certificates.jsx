@@ -6,6 +6,7 @@ import c2 from '../assets/certificates/c2.png'
 import c3 from '../assets/certificates/c3.png'
 import c4 from '../assets/certificates/c4.png'
 import c5 from '../assets/certificates/c5.png'
+import c6 from '../assets/certificates/c6.png'
 
 
 const certificates = [
@@ -14,6 +15,7 @@ const certificates = [
   { id: 3, title: "Connect and Protect: Network Security", imgSrc: c3 },
   { id: 4, title: "Tools of the Trade: Linux and SQL", imgSrc: c4 },
   { id: 5, title: "Introduction to Ethical Hacking", imgSrc: c5 },
+  { id: 6, title: "CAPC", imgSrc: c6 },
 ];
 
 const CertificateGallery = () => {

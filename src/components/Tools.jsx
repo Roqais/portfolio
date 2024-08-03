@@ -69,7 +69,7 @@ function Tools() {
             </div>
             <div className="slider-container md:px-20 md:min-h-content  md:py-11 md:mt-2 bg-gray-800">
 
-                <p className="md:hidden text-center font-semibold text-gray-500 pt-4">Scroll horizontally to view additional slides.</p>
+                <p className="md:hidden text-center font-semibold text-gray-300 pt-4">Scroll horizontally to view additional slides.</p>
                 <Slider {...settings}>
 
 

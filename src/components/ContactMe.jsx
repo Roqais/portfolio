@@ -56,7 +56,7 @@ const ContactMe = () => {
         const newErrors = validate();
 
         if (Object.keys(newErrors).length === 0) {
-            setLoading(true); // Set loading to true when submission starts
+            setLoading(true); 
 
             emailjs
                 .sendForm('service_psxtxub', 'template_0ca1tkc', form.current, {
