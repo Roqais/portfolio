@@ -59,8 +59,8 @@ const ContactMe = () => {
             setLoading(true); 
 
             emailjs
-                .sendForm('service_psxtxub', 'template_0ca1tkc', form.current, {
-                    publicKey: '7_Mu7ToWt_9sZDD1D',
+                .sendForm('service_io2tydp', 'template_rzwd5vk', form.current, {
+                    publicKey: 'NO_Kx6CjuEgeMjlsG',
                 })
                 .then(
                     () => {
@@ -109,13 +109,13 @@ const ContactMe = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" className="w-4 h-4">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                         </svg>
-                        <a href="mailto:hannahviqar13@gmail.com">hannahviqar13@gmail.com</a>
+                        <a href="mailto:roqaiskhan121@gmail.com">roqaiskhan121@gmail.com</a>
                     </div>
                     <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="w-4 h-4">
                             <path d="M4.98 3.5a2.49 2.49 0 00-2.49 2.49v14.02A2.49 2.49 0 004.98 22.5h14.04a2.49 2.49 0 002.49-2.49V5.99a2.49 2.49 0 00-2.49-2.49H4.98zM9 8.25h2.25v1.5H9V8.25zM9 10.875h2.25v6.75H9v-6.75zM16.5 15.375v-3a1.125 1.125 0 00-1.125-1.125c-.69 0-1.125.435-1.125 1.125v3h-2.25v-6.75h2.25v.917a2.775 2.775 0 012.49-1.375c1.383 0 2.25.865 2.25 2.488v4.72H16.5z" />
                         </svg>
-                        <a href="https://www.linkedin.com/in/hannah-viqar-b8264b265/" target="_blank" rel="noopener noreferrer">Hannah Viqar</a>
+                        <a href="https://www.linkedin.com/in/roqais-mahmood-225a33251/" target="_blank" rel="noopener noreferrer">Roqais Mahmood</a>
                     </div>
                 </div>
                 <div>

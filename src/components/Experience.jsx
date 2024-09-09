@@ -16,15 +16,17 @@ const Experience = () => {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaBriefcase />}
                     >
-                        <h3 className="text-xl font-semibold text-white mb-1">Penetration Tester</h3>
+                        <h3 className="text-xl font-semibold text-white mb-1">React & Next JS Fellow</h3>
                         <h4 className="text-lg text-gray-200 mb-2">Islamabad</h4>
                         <h5 className="text-md underline mb-2 hover:text-gray-300">
-                            <a href="https://securepurple.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                                Secure Purple
+                            <a href="https://www.bytewiseltd.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                Bytewise Limited
                             </a>
                         </h5>
                         <p className="text-gray-200">
-                            Penetration Testing, Security Assessments, Vulnerability Identification, Exploitation, Remediation Strategies, Team Collaboration
+                            - Developed dynamic web apps with React & Next.js.<br />
+                            - Styled interfaces using Tailwind CSS, Bootstrap, and Material UI.<br />
+                            - Implemented responsive, user-friendly designs.<br />
                         </p>
                     </VerticalTimelineElement>
 
@@ -36,7 +38,7 @@ const Experience = () => {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaBriefcase />}
                     >   <div className='text-black'>
-                            <h3 className="text-xl font-semibold mb-1">Cybersecurity Intern</h3>
+                            <h3 className="text-xl font-semibold mb-1">Mern Stack Intern</h3>
                             <h4 className="text-lg  mb-2 text-gray-500">Islamabad</h4>
                             <h5 className="text-md underline mb-2 hover:text-gray-500">
                                 <a href="https://www.devmind.pk" target="_blank" rel="noopener noreferrer" className="hover:underline">
@@ -44,7 +46,7 @@ const Experience = () => {
                                 </a>
                             </h5>
                             <p className="text-gray-500">
-                                Network Security, Threat Analysis, Vulnerability Scanning, Security Documentation, Risk Assessment, Team Support
+                                frontend development, Frontend Desinging, Backend Development, API Development, Database Development
 
                             </p>
                         </div>
@@ -66,7 +68,8 @@ const Experience = () => {
                                 </a>
                             </h5>
                             <p className="text-gray-500">
-                                Software Development, Networking, Programming, Software Testing, Project Management
+                                Software Development, Programming Fundamentals, Data Structure,
+                                Object-Oriented Programming (OOP), Databases
                             </p>
                         </div>
                     </VerticalTimelineElement>

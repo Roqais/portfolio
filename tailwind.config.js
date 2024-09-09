@@ -16,7 +16,11 @@ export default {
 
         'full': '9999px',
         'half': '50px',
-      }
+      },
+      colors: {
+        customPurple: '#5540AF',
+        primary: "#5540af",
+      },
     },
   },
   plugins: [],

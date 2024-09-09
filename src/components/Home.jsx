@@ -1,7 +1,10 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import hannah from "../assets/finalhannah.jpg";
+import roqais from '../assets/new/profile.png'
+import roqais1 from '../assets/new/roqais.jpg'
 import { SocialIcon } from 'react-social-icons'
+import About from '../components/About';
+import Services from './Services';
 
 
 
@@ -9,92 +12,72 @@ const Home = () => {
     return (
 
         <>
-            {/* Home */}
-            <div className='bg-slate-200'>
-                <div className='min-h-content max-w-screen-xl mx-auto md:py-20  md:px-4'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-14'>
-                        <div className='order-1 md:order-2 md:col-span-1'>
-                            <img src={hannah} className='object-center w-full h-auto rounded-half ' alt="Hannah Viqar" />
-                        </div>
-                        <div className='order-2 md:order-1 md:col-span-1 md:mt-4 text-center'>
-                            <h1 className='text-6xl tracking-tighter md:text-6xl text-red-900 font-bold mb-4'>Hannah Viqar</h1>
-                            <TypeAnimation
-                                sequence={[
-                                    'Cybersecurity Expert',
-                                    1500,
-                                    'Vulnerability Assessment',
-                                    1000,
-                                    'Penetration Tester',
-                                    1000,
-                                    'Documentation',
-                                    1000,
-                                ]}
-                                speed={50}
-                                className='md:text-2xl text-2xl font-medium md:font-normal '
-                                repeat={Infinity}
-                            />
-                            <p className=' md:my-0 my-10  md:py-10 px-6 md:px-12 text-lg text-justify'>
-                                This is Hannah Viqar, an experienced penetration tester, driven by my passion for
-                                uncovering vulnerabilities and making digital spaces safer. I love the challenge of staying ahead in
-                                cybersecurity and thrive on learning new skills. My goal is to help companies strengthen their
-                                security measures by identifying weaknesses and providing practical solutions. I believe in
-                                sharing knowledge with others in the cybersecurity community and promoting ethical hacking
-                                practices. Ultimately, my objective is to exceed client expectations and build lasting relationships
-                                based on trust and reliability
-                            </p>
+            <div className='bg-gray-900 text-white'>
+                <div className='h-[32rem] max-w-screen-xl mx-auto md:py-0  md:px-4'>
 
-                        </div>
-                    </div>
-                </div>
+                    <div className='flex flex-col h-[31rem] items-center justify-center gap-4'>
 
-            </div>
+                        <img src={roqais1} className='h-36 w-36 rounded-full mb-2 object-cover object-top' alt="" />
 
-            {/* About ME */}
-            < div className='bg-gray-700' >
-                <div className='md:h-80 max-w-screen-lg mx-auto  flex flex-col md:pb-0 pb-8  pt-14 items-center'>
-                    <div className=' text-center text-white'>
-                        <h1 className='md:text-6xl text-4xl font-bold mb-8 '>About ME</h1>
-                        <p className='my-10 md:px-0 px-6 text-justify font-base'>
-                            A cybersecurity penetration tester with a Bachelor's degree in Software Engineering from IMSciences Peshawar, I am known for my hardworking and detail-oriented approach to security challenges. I specialize in penetration testing, vulnerability assessment, web application security, and network security. At Secure Purple, I conduct thorough assessments, identify vulnerabilities, and collaborate with teams to implement effective security measures. Proficient in tools like Acunetix, Burp Suite, Dirsearch, Metasploit, Nmap, and Nuclei,
-                             I am dedicated to continuous learning and staying updated with the latest cybersecurity trends.
-                        </p>
-                    </div>
+                        <h2 className='text-3xl font-semibold tracking-wide text-yellow-500'>I am, Roqais Mahmood</h2>
 
-                    <div className='border w-full mt-5 border-gray-400'></div>
+                        <div className='text-center font-light'>
+                            <p className='my-1 text-2xl'>&lt;A Developer who loves to build cool things /&gt;</p>
 
-                </div>
-            </div >
+                            <div className=''>
+                                <TypeAnimation
+                                    sequence={[
+                                        'Full Stack Developer',
+                                        1500,
+                                        'Mern Stack Developer',
+                                        1000,
+                                        'React.js & Next.js Developer',
+                                        1000,
+                                        'Node.js & Express.js Developer',
+                                        1000,
+                                        
+                                    ]}
 
-
-
-            {/* INFO */}
-            <div className='bg-gray-700'>
-                <div className=' max-w-screen-lg mx-auto'>
-                    <div className='grid grid-cols-2 md:h-60 h-40 text-white justify-between items-center'>
-
-                        <div className='col-span-1  md:text-left text-center font-medium '>
-                            <h2 className='md:mb-7 md:text-3xl mb-4 text-xl uppercase'>Location</h2>
-
-                            <h2 className='md:text-xl text-md'>Peshawar, Pakistan</h2>
-                        </div>
-
-                        <div className=' col-span-1 text-center font-medium'>
-                            <h2 className='md:block hidden md:mb-3 md:text-3xl text-xl uppercase'>Around the Web</h2>
-                            <div className='    '>
-                                <SocialIcon url="www.facebook.com" className='mx-1' />
-                                <SocialIcon url="www.linkedin.com" className='mx-1' />
+                                    speed={50}
+                                    className='text-xl  '
+                                    repeat={Infinity}
+                                />
                             </div>
-
                         </div>
+
+                        <div className='flex gap-1  mt-2'>
+                            <SocialIcon url="https://github.com/Roqais" className="mx-1" />
+                            <SocialIcon url="https://www.linkedin.com/in/roqais-mahmood-225a33251/" className='mx-1' />
+                            <SocialIcon url="https://web.facebook.com/profile.php?id=100008989536991" className='mx-1' />
+                        </div>
+
+                        <div>
+                            <a href="/Roqais_s_Resume.pdf" download="Roqais_Resume.pdf">
+                                <button className="bg-primary mt-3 hover:bg-[#453490] text-white font-bold py-2 px-4 rounded">
+                                    Download My CV
+                                </button>
+                            </a>
+                        </div>
+
+
                     </div>
                 </div>
+
             </div>
 
+            <About />
 
-            <div className='bg-gray-900'>
+
+
+
+            <Services />
+           
+
+
+            <div className='bg-gray-800'>
                 <div className=' max-w-screen-lg md:h-20 mx-auto flex justify-center items-center'>
 
-                    <p className='text-white md:text-md text-xs'>©2024 <span className='underline text-green-400 uppercase'>Hannah Viqar</span> | Protecting Your Digital World</p>
+                    <p className='text-white md:text-[14px] text-xs'>©2024 <span className='underline text-green-400 uppercase'>Roqais Mahmood</span> | Turning Ideas into Interactive Experiences</p>
 
                 </div>
 
